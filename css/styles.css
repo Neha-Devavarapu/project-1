@@ -1,0 +1,18 @@
+
+#hovers {
+    width:200px;
+    height: 200px;
+    margin: 0 auto;
+    border: ipx solid black;
+    }
+    #hovers h2 {
+        text-align: center;
+    }
+    #hovers:hover {
+        background-color:#000;
+        border:20px solid pink;
+        color:white;
+    }
+p{
+    color: blue;
+}
