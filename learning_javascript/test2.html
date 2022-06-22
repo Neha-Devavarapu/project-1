@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script>
+            function changeBgColor(event) {
+                this.style.backgroundColor="blue";
+                //event.stopPropagation();
+            }
+            function load() {
+               //document.getElementById("id_name").onclick=changeBgColor;
+               document.getElementById("id_name").addEventListener("click",changeBgColor);
+                document.getElementById("txt1").onclick=changeBgColor;
+                document.getElementById("txt2").onclick=changeBgColor;
+                document.getElementById("google_link").addEventListener('click',function(event) { console.log("event.target"); event.preventDefault()});
+            }
+            window.addEventListener("load",load);
+            window.addEventListener("click",function() { console.log("clicked on the page..");});
+        </script>
+    </head>
+    <body>
+        <div>
+            <span id="txt1">This is first part of the text.</span><span id=""txt2">And this is the second part.</span>
+            <form>
+               <input id="id_name" type="text"></input>
+            </form>
+            <a id="google_link" href="http:/www.google.com"> Goto google.com</a>
+        </div>
+        
+    </body>
+</html>

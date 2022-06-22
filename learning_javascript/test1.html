@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Pictures</title>
+        <script>
+            var pictures=["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD37j4ZpMjEb4R6U3kqtJDCm4tXspNdk2wzIX20-kTsw&s",
+        ]
+            function load() {
+                document.getElementById("image_canvas").getElementsByTagName("img")[0].src=pictures[0].src=pictures[0]
+            changePic(0);
+            }   
+            function changePic(n) {
+                document.getElementById("image_canvas").getElementsByTagName("img")[0].src=pictures[n%picture.length];
+                setTimeout( function() { changePic(n+1);}, 5000)
+            }
+        </script>
+    </head>
+    <body onload="load();">
+        <h1 id="myHeader">
+            My Pictures
+        </h1>
+        <div id="image_canvas" style="width:750px;height:497px;margin:0 auto">
+        <img style="height:100%;width:100%"/>
+        </div>
+    </body>
+</html>
