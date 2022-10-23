@@ -1,5 +1,5 @@
 body {
-     background:#F4F4F4; 
+     background:#9ef5fb; 
      margin: 0;
 }
 
@@ -15,7 +15,7 @@ body {
 .container {
     width:780px;
     margin: 0 auto;
-    background: #FFF;
+    background: rgb(253, 251, 251);
     box-shadow: 0px 9px 13px 5px;
 
 }
@@ -25,7 +25,7 @@ body {
 }
 
 .menu {
-    background: #3b7687;
+    background: #073379;
     padding: 6px 0 6px 40px;
 }
 .menu a {
@@ -45,7 +45,7 @@ aside {
 }
 h1 {
     margin: 0px;
-    color:#869843;
+    color:#0c0d09;
     font-size: 24px;
     font-family:  "Arial Narrow","Myriad Pro";
     font-weight: normal;
@@ -68,9 +68,12 @@ h2 {
 .main a:hover {
     color: #444444;
 }
-#home-image img {
+#about-image img {
 width: 100%;
 }
+#home-image img {
+    width: 100%;
+    }
 
 footer {
     padding: 6px 40px 6px 40px;
@@ -92,7 +95,7 @@ footer a{
     font-size: 11px;
 }
 /******************** About page style ****************************/
-#about-page #home-image img {
+#about-page #about-image img {
     width: 70%;
     float: left;
     margin-bottom: 20px;
@@ -134,3 +137,9 @@ margin: 5px;
     background: rgb(59,118,135);
     height: 30px;
 }
+/***************************Home Page**********************/
+#home-page #home-image img {
+    width: 61%;
+    float: none;
+    margin-bottom: 20px;
+    }
