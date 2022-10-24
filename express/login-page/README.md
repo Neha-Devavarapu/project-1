@@ -35,3 +35,11 @@ Installation is done using:
 + A basic Login System created by node.js
 + Contains Username and Password inputs; when entered correctly we can login.
 + Styled using CSS.
+## Tech Used
++ HTML
++ CSS
++ JS
++ Node.js
++ Express
++ EJS
++ Nodemon
