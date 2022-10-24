@@ -9,6 +9,6 @@ Explored various Front-end and Back-end Technologies like HTML,CSS,JS,Node.js,Ex
 + A Login System using Node and Express.
 + An Application form Using HTML
 + A Student Data Table using HTML
-+ A Login page using EXpress
++ A Login page using Express
 + Explored Hovers
 + A Login Page Using JS
