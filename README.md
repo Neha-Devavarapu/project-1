@@ -3,7 +3,7 @@ Explored various Front-end and Back-end Technologies like HTML,CSS,JS,Node.js,Ex
 
 ## Projects Include:
 
-+ Builded Mini-projects on all the above Technoligies
++ Builded Mini-projects on all the above Technologies
 + Created a Minimalistic Website.
 + A Calculator using TypeScript.
 + A Login System using Node and Express.
