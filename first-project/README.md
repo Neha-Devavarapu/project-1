@@ -60,4 +60,4 @@ Installation is done locally using:
 + A message is printed:
 > This is the home page!
 + An image is printed :
-![alt text]([https://github.com/[Neha-Devavarapu]/[project-1]/blob/[master]/node-express.png?raw=true)](https://github.com/Neha-Devavarapu/project-1/blob/master/first-project/public/images/node-express.png)
+![alt text](https://github.com/Neha-Devavarapu/project-1/blob/master/first-project/public/images/node-express.png)
