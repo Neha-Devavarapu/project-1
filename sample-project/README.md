@@ -36,7 +36,7 @@ $ npm run build
 + SignUp page
 + Prints neccessary message after signing up like success or failure.
 ```
-> http://localhost:3000/profile/bgates
+ http://localhost:3000/profile/bgates
 ```
 + Opens the profile of Bill gates
 + Similarly created various profiles like elon musk and Steve Jobs with usernames emusk and sjobs.
