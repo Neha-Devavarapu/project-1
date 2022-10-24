@@ -60,4 +60,4 @@ Installation is done locally using:
 + A message is printed:
 > This is the home page!
 + An image is printed :
-> ![](C:\Users\HP\Desktop\project 1\first-project\public\images\node-express.png)
+> ![](project-1\first-project\public\images\node-express.png)
